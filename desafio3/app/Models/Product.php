@@ -15,5 +15,12 @@ class Product extends Model
     ];
     protected $table = 'products';
 
+    //Método adicionado para definir a relação entre as classes.
+    public function category()
+    {
+    return $this->belongsTo(Category::class);
+    }
 
 }
+
+

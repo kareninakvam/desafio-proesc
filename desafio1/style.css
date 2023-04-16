@@ -1,0 +1,74 @@
+
+body {
+    margin-top: 50px;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+h1 {
+text-align: center;
+margin-top: 80px;
+margin-bottom: 50px;
+font-size: 23px;
+}
+
+p {
+text-align: justify;
+margin-bottom: 20px;
+line-height: 1.2;
+}
+
+hr {
+/*display: block;
+height: 1px;
+width: 40%;
+margin: 0 auto;
+margin-top: 20px;
+margin-bottom: 20px;*/
+
+display: block;
+    height: 2px;
+    width: 50%;
+    margin: 0 auto;
+    background-color: black; 
+    border-width: 0; 
+    border-top-width: 1px;
+}
+
+.uppercase {
+text-transform: uppercase;
+}
+
+.date {
+text-align: right;
+margin-bottom: 50px;
+margin-top: 80px;
+}
+
+.signature {
+margin-top: 70px;
+}
+
+.signature p {
+text-align: center;
+}
+
+.container {
+max-width: 750px;
+box-sizing: border-box;
+margin: 70px auto;
+padding: 0 50px; 
+}
+
+.content {
+text-indent: 3em;
+margin-top: 60px;
+}
+
+/* Estilos para impressão */
+@media print {
+#btn-gerar-pdf {
+    display: none;
+}
+}
